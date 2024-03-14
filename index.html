@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/88bc4406a4.js" crossorigin="anonymous"></script> <!------Linker VSC med fontawesome.com------>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/new new logo.png" alt="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">Om meg</a></li>
+                <li><a href="#portfolio">Prosjekter</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>IT student</p>
+            <h1>Hei, Jeg er <span>Joakim</span><br>og jeg kommer fra Stavanger</h1>
+        </div>
+    </div>
+</div>    
+<!------------------About------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user new new.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Om meg</h1>
+                    <p>Jeg er elev på Hønefoss vidregående skole, og jeg går i klasse 1ima. 
+                        (Informasjonsteknologi og medieproduksjon. Jeg har en stor interesse 
+                        for IT, og teknologi generelt. Jeg driver med spill og live streaming på fritiden</p>
+
+                    <div class="tab-titles"> 
+                    <p class="tab-links active-link" onclick="opentab('skills')">Ferdigheter</p> 
+                    <p class="tab-links" onclick="opentab('experience')">Jobb erfaring</p> 
+                    <p class="tab-links" onclick="opentab('education')">Utdanning</p>   
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Koding</span><br>CSS, HTML</li>
+                            <li><span>Medier</span><br>Foto og bilderedigering</li>
+                            <li><span>Gaming</span><br>Mario kart champion <br> Vikens beste Minecraft bygger</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021</span><br>Utplasering på Tronrud engineering</li>
+                            <li><span>2019 & 2020</span><br>Operasjon dasgverk: Import service bil</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2023</span><br>1ima Hønefoss VGS</li>
+                            <li><span>2019-2022</span><br>Hov Ungdomsskole</li>
+                            <li><span>2012-2019</span><br>Ullerål skole</li>
+                        </ul>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------Prosjekter--------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Mine prosjekter</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/new work-1.png">
+                <div class="layer">
+                    <h3>Titanfall 2 review</h3>
+                    <p>Jeg lagde denne som en del av game review oppgaven vi fikk i 1ima</p>
+                    <a href="https://youtu.be/ptHqPZicAvk" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+
+            <div class="work">
+                <img src="img/new work-2.png">
+                <div class="layer">
+                    <h3>YFF Helpdesk</h3>
+                    <p>Jeg og 2 andre lagde denne som en del av en YFF Helpdesk oppgave</p>
+                    <a href="https://www.youtube.com/watch?v=Zg_kX2nSAGE" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="img/new work-3.png">
+                <div class="layer">
+                    <h3>Bibliogames Viken vinner</h3>
+                    <p>Jeg og 2 andre lagde dette prosjektet på 16 timer spredd utover 4 dager som en del av bibliobattles 2022. Vi tok seieren i Viken og kom på andre plass i hele norge</p>
+                    <a href="https://www.youtube.com/watch?v=pwMDEmDNJu4" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<br>
+<br> <!-------Lufter lit mer mellom prosjekter og kontakt meg-->
+<br>
+<br>
+<!---------------------Kontakt meg--------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Kontakt meg</h1>
+                <p><i class="fa-solid fa-envelope"></i>joakim.vangen@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>980 77 073</p>
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/channel/UC7whTGrgq_iskHiJYZLmdFA" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://discord.gg/9jTbfWv"><i class="fa-brands fa-discord" target="_blank" rel="noopener noreferrer"></i></a>
+                    <a href="https://github.com/JoakimVangen"><i class="fa-brands fa-github" target="_blank" rel="noopener noreferrer"></i></a>
+                    <a href="https://open.spotify.com/user/joakim.vangen"><i class="fa-brands fa-spotify" target="_blank" rel="noopener noreferrer"></i></a>
+                </div>
+                <a href="img/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kevin. Tutorial fulgt av Easy Tutorials <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<!-----------Gjør slik at når du trykker på "Jobb erfaring" så blir informasjonen fra (for eksemel) Utdanning byttet ut med Jobb erfarings informasjonen------>
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+</body>
+</html>
